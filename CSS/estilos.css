@@ -1,8 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700;900&display=swap'); */
+
 /* PALETA : Malba #D4BDC1
             Terracota #DB9E76 
             Verde #a1cdac 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700;900&display=swap');
+
+h1, h2, p{
+    font-family: 'Raleway', sans-serif; 
+    color: #DB9E76;
+    font-weight: 400;
+}
 *{
     margin: 0;
     padding: 0%;
@@ -38,6 +47,22 @@
 */
 /*viejo css */
 
+..navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #DB9E76;
+    font-weight: 900;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #DB9E76;
+    font-weight: 900;
+}
+.nav-link.active{
+    color: #DB9E76;
+    font-weight: 900;
+}
+.dropdown-item{
+    color: #DB9E76;
+    font-weight: 300;
+}
 .main{
     display: flex;
     background-color: #D4BDC1;

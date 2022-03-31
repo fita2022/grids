@@ -47,15 +47,11 @@ h1, h2, p{
 */
 /*viejo css */
 
-..navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+..navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
     color: #DB9E76;
     font-weight: 900;
 }
 .navbar-light .navbar-nav .nav-link {
-    color: #DB9E76;
-    font-weight: 900;
-}
-.nav-link.active{
     color: #DB9E76;
     font-weight: 900;
 }
@@ -87,7 +83,18 @@ h1, h2, p{
     gap: 1rem;
     padding: 2rem;
     }
-}
+.card-title {
+        color:#D4BDC1;
+        margin-bottom: 0.5rem;
+    }
+.nav-link {
+        display: block;
+        padding: 0.5rem 1rem;
+        color:#DB9E76;
+        text-decoration: none;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    }
+
 .separador{
     background-color:#DB9E76 ;
     height: 20px;
@@ -150,6 +157,7 @@ h1, h2, p{
     justify-content:space-around;
 }
 .a{
+    color:#DB9E76
     text-decoration: none;
 }
 .hero-contenedor {
@@ -451,8 +459,10 @@ height: 100vh;
 
                          /* MEDIA QUERIE RESPONSIVE ESTILOS MOVILES */
                                  /*  ESTILOS DESKTOP */
+                                 /*
 @media screen and (min-width: 768px) {  }
                                 /*  ESTILOS MOVILES */
+                                /*
 @media screen and (max-width: 769px) {
     .footer, .departamentos__contenedor, .header, .complementoMain, .complementoDepartamentos__contenedor{
         flex-wrap: wrap;

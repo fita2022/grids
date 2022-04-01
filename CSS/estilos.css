@@ -17,7 +17,6 @@ h1, h2, p{
     padding: 0%;
     box-sizing: border-box;
 }
-
 .contenedor{
     display: grid;
     grid-template-columns: 20% 70% 10%;
@@ -43,11 +42,8 @@ h1, h2, p{
 #mainFooter{
     grid-area: mainFooter;
 }
-
-*/
 /*viejo css */
-
-..navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
     color: #DB9E76;
     font-weight: 900;
 }
@@ -64,7 +60,6 @@ h1, h2, p{
     background-color: #D4BDC1;
     grid-template-columns: repeat(3, 1fr);
 }
-
 .mainIndex{
         background-color:#D4BDC1;
         grid-template-columns: auto auto;
@@ -156,7 +151,7 @@ h1, h2, p{
     justify-content:space-around;
 }
 .a{
-    color:#DB9E76
+    color:#DB9E76;
     text-decoration: none;
 }
 .hero-contenedor {
@@ -396,18 +391,17 @@ header{
  background-color: #A1CDAC;
  max-width: 400px;
  }
-.grid__galeria{
-display: grid;
-grid-template-rows: auto 1fr auto;
-height: 100vh;
-}
-.galeriaMain{
- display: grid;
- grid-template-rows: auto auto auto;
- grid-template-columns: auto auto auto;
- padding: 100px 100px;
- background-color: red;
-}
+
+ .grid__galeria{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto;
+    background-color: #DB9E76;
+    justify-content: space-around;
+    height: 100vh;
+    width: auto;
+} 
+ 
 
                             /* ESTILOS comodidades*/
                             .main__img{
@@ -483,10 +477,10 @@ height: 100vh;
     .hero__titulo{
         font-size: 1.75rem;
     }
-    .header__sello {
+    .header__sello, .footer__sello {
         max-width: 100px;
         margin: auto;
     }
-.main--grid{
+.main--grid , .grid__galeria{
     grid-template-columns: auto;
 }

@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="../CSS/estilos.css">
 </head>
 <body>
-    <div class="grid__galeria">
     <header class="header"><!--/ starts header-->
         <img class="header__logo" src="../IMG/logo casa florida.png" alt="Logo Casa Florida">
         <div class="header__columna">
@@ -27,6 +26,7 @@
     </header><!--/ ends header-->
     <hr class="separador">
     <main class="mainGaleria">
+     <div class="grid__galeria"> 
         <section class="main__izquierdaGaleria"> <img class="imgGaleria" src="../IMG/escaleras.jpg" alt="">
         </section>
         <section class="main__centroGaleria"> <img class="imgGaleria" src="../IMG/escaleras.jpg" alt="">
@@ -39,7 +39,9 @@
         </section>
         <section class="main__derechaGaleria"> <img class="imgGaleria" src="../IMG/escaleras.jpg" alt="">
         </section>
+     </div>
     </main>
+
     <footer class="footer"> <!--/ starts footer-->
         <div class="footer__columna">
             <h3 class="footer__titulo">Esto es un titulo.</h3>
@@ -53,18 +55,19 @@
         </div>
             <nav class="footer__nav">
                 <ul class="footer__list">
-                    <li class="header__item"> <a class="header__link" href="../index.html">Inicio</a></li>
-                <li class="footer__item"> <a class="header__link" href="./nosotros.html">Nosotros</a></li>
-                <li class="footer__item"> <a class="header__link" href="#">Galeria</a></li>
-                <li class="footer__item"> <a class="header__link" href="./departamentos.html">Departamentos</a></li>
-                <li class="footer__item"> <a class="header__link" href="./comodidades.html">Comodidades</a></li>
-                <li class="footer__item"> <a class="header__link" href="./contacto.html">Contacto</a></li>
+                    <li class="footer__item"> <a href="#">inicio</a></li>
+                    <li class="footer__item"> <a href="./Secciones/nosotros.html">nosotros</a></li>
+                    <li class="footer__item"> <a href="./Secciones/galeria.html">galeria</a></li>
+                    <li class="footer__item"> <a href="./Secciones/detarpamentos.html">departamentos</a></li>
+                    <li class="footer__item"> <a href="./Secciones/comodidades.html">comodidades</a></li>
+                    <li class="footer__item"> <a href="./Secciones/contacto.html">contacto</a></li>
                 </ul>
             </nav>
         </div>
         <div class="footer__columna">
             <iframe class="footer_mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.033254785444!2d-65.09047074835894!3d-40.805263018701865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95fa331402f8ee11%3A0x36cd0fd3ac6ca624!2sCasa%20Florida!5e0!3m2!1ses!2sar!4v1637565197619!5m2!1ses!2sar" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
-</footer> <!--/ ends footer-->
+    </footer> <!--/ ends footer-->
+</div> <!-- ENDS container-->
 </body>
 </html>

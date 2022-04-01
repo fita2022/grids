@@ -17,7 +17,7 @@ h1, h2, p{
     padding: 0%;
     box-sizing: border-box;
 }
-/* a ver si este es el error
+
 .contenedor{
     display: grid;
     grid-template-columns: 20% 70% 10%;
@@ -94,7 +94,6 @@ h1, h2, p{
         text-decoration: none;
         transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
     }
-
 .separador{
     background-color:#DB9E76 ;
     height: 20px;
@@ -459,10 +458,10 @@ height: 100vh;
 
                          /* MEDIA QUERIE RESPONSIVE ESTILOS MOVILES */
                                  /*  ESTILOS DESKTOP */
-                                 /*
+                                 
 @media screen and (min-width: 768px) {  }
                                 /*  ESTILOS MOVILES */
-                                /*
+                                
 @media screen and (max-width: 769px) {
     .footer, .departamentos__contenedor, .header, .complementoMain, .complementoDepartamentos__contenedor{
         flex-wrap: wrap;

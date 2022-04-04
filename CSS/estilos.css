@@ -6,13 +6,51 @@
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700;900&display=swap');
+    
+/*  fonts y headings */
+h1, h2, h3, h4, p{
+    font-family: 'Raleway', sans-serif; 
+    margin: 10 px 0;
+}
+h1{
+    font-size: 2.4em;
+    color: #D4BDC1;
+    font-weight: 900;
+}
+h2{
+    font-size: 2em;
+    color:#D4BDC1 ;
+    font-weight: 700;
+}
+h3{
+    font-size: 2em;
+    color:#D4BDC1;
+    font-weight: 300;
+}
+h4{
+    font-size: 1em;
+}
+p{
+    font-size: 1em;
+    color:#D4BDC1;
+    font-weight: 300;
+}
+/*  nav */
+#botonera{
+    background-color: #ffffff;
+}
 
+/*  class bg - btn */
 
+/*  Pseudo classes */
+
+/*  boostrap.html y copyboostrap.html */
+/*
 h1, h2, h3, p{
     font-family: 'Raleway', sans-serif; 
     color: #DB9E76;
     font-weight: 400;
-}
+} */
 *{
     margin: 0;
     padding: 0%;
@@ -55,7 +93,6 @@ h1, h2, h3, p{
     font-weight: 900;
 }
 .dropdown-item{
-    
     color: #DB9E76;
     font-weight: 300;
 }
@@ -121,11 +158,10 @@ h1, h2, h3, p{
     color:#ffffff;
     border-radius: 50px;
 }
-/*
 .header__sello{
     max-width: 200px;
     margin: auto;
-} */
+} 
 .header__list{ 
  display: flex;
  list-style: none;

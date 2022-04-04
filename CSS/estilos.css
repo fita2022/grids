@@ -223,6 +223,7 @@ h1, h2, h3, p{
 .p{
     font-family: 'Raleway', sans-serif;
 }
+/*  NO SE DONDE HAY CARDS EN USO PREVIAS AL BS
 .card {
     background-color: #CFC9C2;
     width: 400px;
@@ -231,14 +232,14 @@ h1, h2, h3, p{
     background-image: url(../IMG/lavanda.JPG);
     background-position: center;
     background-repeat: no-repeat;
-}
+} 
+.card__img{
+    width: 100%;
+} */
 .card__wrapper {
     width: 400px;
     padding: 1rem;
     background-color: #DB9E76 ;
-}
-.card__img{
-    width: 100%;
 }
 .complementoMain{
     background-color: #DB9E76;
@@ -442,11 +443,11 @@ header{
     width: auto;
 } 
                             /* ESTILOS comodidades*/
-                            .main__img{
-                                max-width: 500px;
-                                max-height: 500px;
-                               margin: auto;
-                            }
+.main__img{
+    max-width: 500px;
+    max-height: 500px;
+    margin: auto;
+     }
 
                             /* ESTILOS departamentos*/
 .grid__general{

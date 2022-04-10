@@ -1,90 +1,129 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CASA FLORIDA ALQUILERES EN LAS GRUTAS</title>
-    <link rel="stylesheet" href="../CSS/estilos.css">
-</head>
-<body>
-    <header class="header">
-        <img class="header__logo" src="../IMG/logo casa florida.png" alt="Logo Casa Florida">
-        <div class="header__columna">
-            <img class="header__sello" src="../IMG/sello.png" alt="sello">
-        </div>
-        <nav class="header__nav">
-            <ul class="header__list">
-                <li class="header__item"> <a class="header__link" href="../index.html">Inicio</a></li>
-                <li class="header__item"> <a class="header__link" href="./nosotros.html">Nosotros</a></li>
-                <li class="header__item"> <a class="header__link" href="./galeria.html">Galeria</a></li>
-                <li class="header__item"> <a class="header__link" href="./departamentos.html">Departamentos</a></li>
-                <li class="header__item"> <a class="header__link" href="./comodidades.html">Comodidades</a></li>       
-                <li class="header__item"> <a class="header__link" href="#">Contacto</a></li>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="../CSS/bootstrap.min.css" rel="stylesheet">
+    <!-- MI CSS -->
+    <link href="../CSS/respaldo.css" rel="stylesheet">
+    <title>Contacto</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light" id="botonera"><!--/ starts nav-->
+        <div class="container-fluid">
+          <a class="navbar-brand" href="contactoBS.html"> <img class="header__logo" src="../IMG/logo casa florida.png" alt="Logo Casa Florida"></a>
+          <a class="navbar-brand" href="#"><img class="sello-calidad w-50" src="../IMG/sello.png" alt="sello calidad"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Comodidades</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Departamentos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Monoambiente</a></li>
+                  <li><a class="dropdown-item" href="#">Dep 3 pax</a></li>
+                  <li><a class="dropdown-item" href="#">Dep 4 pax</a></li>
+                  <li><a class="dropdown-item" href="#">Dep 5 pax</a></li>
+                  <li><a class="dropdown-item" href="#">Casa 8 pax</a></li>
+                </ul>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                  </li>
+              </li>
             </ul>
-        </nav>
-    </header>
-    <hr class="separador">
-    <br>
-    <form action="#" method="get">
-        <div>
-            <div>
-            <label for="name">Nombre y Apellido</label>
-            </div>
-            <input type="text" name="user-info" id="username" placeholder="Ingrese Nombres y Apellidos">
+          </div>
         </div>
-        <br>
-        <div>
-            <label for="mail">Email</label>
+      </nav><!--/ ends nav-->
+      <section class="py-3"><!-- starts portada-->
+        <div class="container-fluid">
+          <div class="card bg-light text-white">
+            <img src="../IMG/1.svg" class="card-img border" alt="...">
+            <div class="card-img-overlay">
+              <h5 class="card-title fw-bolder text-uppercase">Contacto</h5>
             </div>
-            <input type="text" name="user-info" id="mail" placeholder="Ingrese su email">
-            <br>
-            <br>
-            <div>
-        <div>
-            <label for="phone">Telefono</label>
-            </div>
-            <input type="text" name="user-info" id="phone" placeholder="Ingrese su Numero de Telefono">
-            <br>
-            <br>
-            <div>
-                <label for="text">Consulta</label>
-                </div>
-                <input type="text" name="user-info" id="text" placeholder="Ingrese su consulta">
-                <br>
-                <br>
-            <input type="submit" value="ENVIAR CONSULTA">
-            <input type="reset" value="RESET INFO">
+          </div>
         </div>
-        <br>
-    </form>
-</section><!--main-->
-<hr class="separador">
-<footer class="footer"> 
-    <div class="footer__columna">
-        <h3 class="footer__titulo">Esto es un titulo.</h3>
-    <p class="footer__parrafo">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas nostrum id veniam obcaecati consectetur harum quos ab adipisci amet perspiciatis. In quos iste tenetur a!</p>
-</div>   
-    <div class="footer__columna">
-        <img class="footer__logo" src="../IMG/logo casa florida.png" alt="Un logo">
-    </div>
-    <div class="footer__columna">
-        <img class="footer__sello" src="../IMG/sello.png" alt="sello">
-    </div>
-        <nav class="footer__nav">
-            <ul class="footer__list">
-                <li class="footer__item"> <a href="../index.html">Inicio</a></li>
-                <li class="footer__item"> <a href="./nosotros.html">Nosotros</a></li>
-                <li class="footer__item"> <a href="./galeria.html">Galeria</a></li>
-                <li class="footer__item"> <a href="./detarpamentos.html">Departamentos</a></li>
-                <li class="footer__item"> <a href="./comodidades.html">Comodidades</a></li>
-                <li class="footer__item"> <a href="#">Contacto</a></li>
-            </ul>
-        </nav>
-    </div>
-    <div class="footer__columna">
-        <iframe class="footer_mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.033254785444!2d-65.09047074835894!3d-40.805263018701865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95fa331402f8ee11%3A0x36cd0fd3ac6ca624!2sCasa%20Florida!5e0!3m2!1ses!2sar!4v1637565197619!5m2!1ses!2sar" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    </div>
-</footer>
-</body>
-</html>
+      </section><!-- /ends portada-->
+      <section class="container-fluid py-3" id="formulario"><!-- starts formulario-->
+          <h5 class="text-center">Dejanos tu consulta</h5>
+          <div class="row">
+            <article class="col-lg-6">
+                <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">No compartiremos tus datos personales con nadie.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Nombre y Apellido</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Ciudad de procedencia</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Quiero recibir ofertas</label>
+                    </div>
+                    <button type="submit" class="btn btn-light w-50">Enviar consulta</button>
+                  </form>
+            </article><!-- /ends form-->
+            <article class="col-lg-6">
+              <img src="../IMG/exterioir ocho cuatro pax.jpg" class="w-75 border" alt="">
+            </article>
+         </div><!-- /ends row-->
+       </section>
+       <section class="py-3"><!-- starts footer-->
+        <footer class="navbar navbar-expand-lg navbar-light" id="footer"> 
+           <div class="container-fluid">
+             <div class="footer__columna" style="margin: 1em;max-width: 300px;">
+               <h3 class="footer__titulo">Casa Florida</h3>
+                  <p class="footer__parrafo">Es un emprendimiento familiar atendido por sus dueños desde el año 20003</p>
+             </div> 
+             <a class="navbar-brand" href="#"> <img class="footer__logo" src="../IMG/casa florida.png" alt="Logo Casa Florida"></a>
+             <a class="navbar-brand" href="#"><img class="sello-calidad w-50" src="../IMG/sello.png" alt="sello"></a>
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+             <div class="footer" id="links">
+               <nav class="nav flex-column">
+                   <a class="nav-link" href="#">Inicio</a>
+                   <a class="nav-link" href="#">Nosotros</a>
+                   <a class="nav-link" href="#">Galeria</a>
+                   <a class="nav-link" href="#">Comodidades</a>
+                   <a class="nav-link" href="#">Departamentos</a>
+                   <a class="nav-link" href="#">Contacto</a>
+                 </nav>
+             </div>
+           </div>
+           <div class="footer__columna" style="margin: 1em; max-width: 20rem;">
+               <iframe class="footer_mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.033254785444!2d-65.09047074835894!3d-40.805263018701865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95fa331402f8ee11%3A0x36cd0fd3ac6ca624!2sCasa%20Florida!5e0!3m2!1ses!2sar!4v1637565197619!5m2!1ses!2sar" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+           </div>
+        </footer>
+        </section><!--/ ends footer-->
+        <!-- SCRIPT DE JS -->
+        <script src="../JS/bootstrap.min.js"></script>
+     </body>
+   </html>

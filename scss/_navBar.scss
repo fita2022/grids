@@ -1,0 +1,21 @@
+.botonera{
+    background-color: #ffff;
+    padding: 5px 30px;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header{
+    display:flex;
+    background-color:#ffffff;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+    flex-wrap: wrap;
+
+    .header__sello{
+        max-width: 200px;
+        margin: auto;
+    } 
+}

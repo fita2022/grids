@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "AEAA,OAAO,CAAC,6FAAI;AACZ,OAAO,CAAC,2IAAI;ACDZ,AAAA,SAAS,CAAA;EACL,gBAAgB,EAAE,KAAK;EACvB,OAAO,EAAE,QAAQ;EACjB,GAAG,EAAE,CAAC;EACN,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,WAAW,EAAE,MAAM;CACtB;;AHCD,AAAA,CAAC,CAAA;EACG,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,EAAE;EACX,UAAU,EAAE,UAAU;CACzB;;AACD,AAAA,OAAO,CAAA;EACH,OAAO,EAAC,IAAI;EACZ,gBAAgB,EAAC,OAAO;EACxB,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,aAAa;EAC9B,OAAO,EAAE,SAAS;EAClB,SAAS,EAAE,IAAI;CAWlB;;AAjBD,AAQI,OARG,CAQH,cAAc,CAAA;EACV,SAAS,EAAE,KAAK;EAChB,MAAM,EAAE,IAAI;CACf",
+    "sources": [
+        "estilos.scss",
+        "_comon.scss",
+        "_fonts.scss",
+        "_navBar.scss",
+        "_content.scss",
+        "_footer.scss"
+    ],
+    "names": [],
+    "file": "estilos.css"
+}

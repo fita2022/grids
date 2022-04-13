@@ -7,21 +7,23 @@
      <!-- Bootstrap CSS -->
      <link href="../CSS/bootstrap.min.css" rel="stylesheet">
      <!-- MI CSS -->
-     <link href="../CSS/respaldo.css" rel="stylesheet">
+     <link href="../CSS/estilos.css" rel="stylesheet">
     <title>CASA FLORIDA ALQUILERES EN LAS GRUTAS</title>
   </head>    
   <body>
-     <nav class="navbar navbar-expand-lg navbar-light" id="botonera"><!--/ starts nav-->
+    <header class="header">
+    <nav id="botonera" class="navbar navbar-expand-lg" ><!--/ starts nav-->
          <div class="container-fluid">
            <a class="navbar-brand" href="index.html"> 
-             <img class="header__logo" src="./IMG/logo casa florida.png" alt="Logo Casa Florida">
+             <img class="header__logo" src="./IMG/casa florida.png" alt="Logo Casa Florida">
            </a>
-          <a class="navbar-brand" href="#"><img class="sello-calidad w-50" src="./IMG/sello.png" alt="sello calidad">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"   data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+           <a class="navbar-brand" href="#">
+            <img class="sello-calidad w-50" src="./IMG/sello.png" alt="sello calidad">
+           </a>
+           <button id="toggler" class="navbar-toggler" type="button" data-bs-toggle="collapse"   data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+           </button>
+           <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Inicio</a>
@@ -53,7 +55,8 @@
             </ul>
           </div>
          </div>
-      </nav><!--/ ends nav-->
+    </nav><!--/ ends nav-->
+  </header>
       <div class="container-fluid"><!-- starts carousel -->
          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -81,15 +84,15 @@
               <span class="visually-hidden">Siguiente</span>
             </button>
           </div>
-         </div>
+        </div>
      </div> <!-- / ends carousel -->
      <section class="py-3"><!-- starts text section -->
-     <div class="container-fluid">
+      <div class="container-fluid">
         <div class="row mt-5">
             <div class="col-md-4">
                 <h2>Ambiente</h2>
                 <p>Nuestro complejo de departamentos es familiar y de descanso</p>
-            </div>
+            </div>sass
             <div class="col-md-4">
                 <h2>Ubicacion</h2>
                 <p>Nos encontramos a pocos metros de la costanera y centro del balneario</p>
@@ -101,8 +104,8 @@
         </div>
      </section>
      </div><!--/ ends text section-->
-     <section class="py-3">
-     <div class="container-fluid" style="background-color: #E3F0E7; padding: 2rem;">
+     <section class="py-3"><!-- starts photo section -->
+      <div class="container-fluid" style="background-color: #E3F0E7; padding: 2rem;">
         <div class="row justify-content-around">
             <div class="col-md-3 mt-1">
                 <img class="img-fluid rounded" src="./IMG/3 pax entrada.svg" alt="">
@@ -117,16 +120,16 @@
                 <img class="img-fluid rounded" src="./IMG/8 pax entrada.svg" alt="">
             </div>
         </div>
-     </div>
+     </div><!--/ ends photo section-->
      <section class="py-3"><!-- starts comodidades cards-->
         <div class="container-fluid">
          <h5 class="title-conoce text-center"> ¡Conoce nuestros departamentos! </h5>
          <div class="row">
            <article class="col-sm-12 col-md-6 col-lg-3 pb-sm-2">
-             <img src="./IMG/2 pax entrada.svg" class="card-img border border-5" alt="2 pax">
+             <img src="./IMG/2 pax entrada.svg" class="card-img border" alt="2 pax">
              <h3 class="text-center"> 2 pax</h3>
              <p>Monoambiente precioso con pequeño patio lateral privado</p>
-             <a href="" class="btn btn-light w-50">Mas info</a>
+             <a href="" class="btn w-50">Mas info</a>
            </article> <!--/ ends  card 1-->
            <article class="col-sm-12 col-md-6 col-lg-3 pb-sm-2">
             <img src="./IMG/3 pax entrada.svg" class="card-img border border-5" alt="3 pax">
@@ -138,13 +141,13 @@
             <img src="./IMG/4 pax entrada.svg" class="card-img border border-5" alt="4 pax">
             <h3 class="text-center" > 4 pax </h3>
             <p>Departamento de un dormitorio y cama marinera en sala</p>
-            <a href="" class="btn btn-light w-50">Mas info</a>
+            <a href="" class="btn w-50">Mas info</a>
           </article> <!--/ ends card 3-->
           <article class="col-sm-12 col-md-6 col-lg-3 pb-sm-2">
             <img src="./IMG/5 pax entrada.svg" class="card-img border border-5 " alt="5 pax">
             <h3 class="text-center">5 pax</h3>
             <p>Departamento en planta alta con parrilla privada y dormitorio con entrepiso </p>
-            <a href="" class="btn btn-light w-50">Mas info</a>
+            <a href="" class="btn w-50">Mas info</a>
           </article> <!--/ ends card 4-->
          </div><!--/ ends row-->
         </div><!--/ ends container-->
@@ -153,7 +156,7 @@
         <div class="container-fluid">
             <div class="row"> 
           <article class="col-sm-12 col-md 6 col-lg-8"><!-- foto de galeria-->
-          <img src="./IMG/atardecer playa.JPG" class="w-75 border border-5 " alt="">
+          <img src="./IMG/atardecer playa.JPG" class="w-75 border" alt="">
           </article>
           <article class="col-sm-12 col-md-6 col-lg-4"><!-- texto y boton de galeria-->
          <h2 class="card-title">Las playas mas lindas de la Patagonia</h2>

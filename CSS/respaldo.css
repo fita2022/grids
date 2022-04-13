@@ -7,10 +7,11 @@
 
             textos titulos: #737B7D
             textos cuerpo : #979797
+             azul oscuro : #77878F
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700;900&display=swap');
-    
+ 
 /*  fonts y headings */
 h1, h2, h3, h4, p{
     font-family: 'Raleway', sans-serif; 
@@ -18,23 +19,26 @@ h1, h2, h3, h4, p{
 }
 h1{
     font-size: 2.4em;
-    color: #737B7D;
     font-weight: 900;
+    color: #77878F;
+    
 }
 h2{
     font-size: 2em;
-    color:#737B7D;
     font-weight: 700;
+    color:#77878F;
+   
 }
 h3{
     font-size: 2em;
-    color:#737B7D;
     font-weight: 400;
+    color:#737B7D;
+    
 }
 h4{
     font-size: 1em;
     font-weight: 300;
-    color: #737B7D;
+    color: #77878F;
 }
 h5{
     font-size: 2em;
@@ -44,8 +48,9 @@ h5{
 }
 h6{
     font-size: 2.4em;
-    color: #ffffff;
     font-weight: 400;
+    color: #ffffff;
+    
 }
 h7{
     font-size: 1em;
@@ -54,8 +59,13 @@ h7{
 }
 p{
     font-size: 1em;
-    color:#979797;
     font-weight: 300;
+    color:#77878F;
+    
+}
+.border{
+    border: 10px;
+    color: #DB9E76;
 }
 /*  nav */ 
 #botonera{
@@ -588,4 +598,4 @@ header{
     }
 .main--grid , .grid__galeria{
     grid-template-columns: auto;
-}
+    }

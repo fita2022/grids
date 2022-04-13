@@ -1,20 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&family=Raleway:wght@100;300;400;700;900&display=swap");
-.botonera {
-  background-color: #ffff;
-  padding: 5px 30px;
-  top: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700;900&display=swap");
 * {
   margin: 0;
   padding: 0%;
@@ -23,23 +9,92 @@
 }
 
 .header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: #ffffff;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 20px 10px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  background-color: #DB9E76;
 }
 
-.header .header__sello {
+.header .header__logo {
+  max-width: 250px;
+  margin: auto;
+}
+
+.header .dropdown-item {
+  color: #DB9E76;
+  font-weight: 700;
+  font-size: 1em;
+}
+
+.header .nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #ffffff;
+  text-decoration: none;
+  -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.header .nav-item {
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1em;
+}
+
+.header div #toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 0.25rem;
+  -webkit-transition: -webkit-box-shadow .15s ease-in-out;
+  transition: -webkit-box-shadow .15s ease-in-out;
+  transition: box-shadow .15s ease-in-out;
+  transition: box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+}
+
+.btn {
+  padding: 15px 12px;
+  border: none;
+  background-color: #A1CDAC;
+  color: white;
+  border-radius: 5px;
+  margin: 30px;
+}
+
+.botonera {
+  background-color: #DB9E76;
+}
+
+.botonera .header__logo {
   max-width: 200px;
   margin: auto;
+}
+
+.botonera .sello-calidad {
+  max-width: 200px;
+  margin: auto;
+}
+
+.botonera .nav-link {
+  font-size: 1em;
+  font-weight: 300;
+  color: #ffff;
+}
+
+.botonera .nav-link.active, .botonera .show > {
+  font-family: "Raleway", sans-serif;
+  color: #DB9E76;
+  font-weight: 900;
+}
+
+.botonera .navbar-light .navbar-nav .nav-link {
+  font-family: "Raleway", sans-serif;
+  color: #DB9E76;
+  font-weight: 900;
+}
+
+.botonera .dropdown-item {
+  color: #DB9E76;
+  font-weight: 300;
 }
 /*# sourceMappingURL=estilos.css.map */

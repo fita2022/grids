@@ -1,0 +1,31 @@
+// nav bar
+.botonera{
+    background-color: $colorMain;
+        .header__logo{
+            max-width: 200px;
+            margin: auto; 
+        }
+        .sello-calidad{
+            max-width: 200px;
+            margin: auto;
+        }
+        .nav-link{
+            font-size: 1em;
+            font-weight: 300;
+            color: #ffff;
+        }
+        .nav-link.active, .show>{
+            font-family: $fontMain; 
+            color: #DB9E76;
+            font-weight: 900;
+        }
+        .navbar-light .navbar-nav .nav-link {
+            font-family: $fontMain; 
+            color: #DB9E76;
+            font-weight: 900;
+        }
+        .dropdown-item{
+            color: #DB9E76;
+            font-weight: 300;
+        }
+    }

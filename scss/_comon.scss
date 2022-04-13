@@ -1,9 +1,10 @@
 // definimos variables
 
 // colores
-$mainColor: #DB9E76  ; 
-$secondaryColor: #D4BDC1;
-$keyColor: #a1cdac ;
+$colorMain: #DB9E76  ; 
+$colorMalba: #D4BDC1;
+$colorVerde: #A1CDAC ;
+$colorVerdeClaro: #E3F0E7 ;
 
 // sizing
 $w-100: 100%;
@@ -11,7 +12,57 @@ $w-50: 50%;
 $w-100: 25%;
 $w-25: 25%;
 
+// extends
 
+//  HEADER ..............................................................................HEADER 
+.header{
+  background-color: $colorMain;
+    .header__logo{
+    max-width: 250px;
+    margin: auto;
+    }
+    .dropdown-item{
+    color: $colorMain;
+    font-weight: 700;
+    font-size: $textSm;
+    }
+    .nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color:#ffffff;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    }
+    .nav-item{
+      font-family: 'Raleway', sans-serif; 
+      color:#ffffff;
+      font-weight: 700;
+      font-size: $textSm;
+    }
+    div{
+      #toggler{
+        padding: 0.25rem 0.75rem;
+        font-size: 1.25rem;
+        line-height: 1;
+        background-color: transparent;
+        border: 1px solid #ffffff;
+        border-radius: 0.25rem;
+       transition: box-shadow .15s ease-in-out;
+      }
+    }  
+  } 
+
+
+  
+// section departamentos de index 
+.btn{
+  padding: 15px 12px;
+  border: none;
+  background-color: $colorVerde;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  margin: 30px;
+}
 // mixins
 
 

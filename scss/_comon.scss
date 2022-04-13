@@ -6,6 +6,7 @@ $colorMalba: #D4BDC1;
 $colorVerde: #A1CDAC ;
 $colorVerdeClaro: #E3F0E7 ;
 $colorTextoGris : #979797;
+$colorBlanco: #ffffff;
 
 // sizing
 $w-100: 100%;
@@ -32,7 +33,7 @@ h3{
 h4{
   font-size: 2em;
       font-weight: 500;
-      color:#ffffff;
+      color:$colorBlanco;
 }
 h5{
       font-size: 2em;
@@ -63,7 +64,7 @@ h5{
     }
     .nav-item{
       font-family: 'Raleway', sans-serif; 
-      color:#ffffff;
+      color:$colorBlanco;
       font-weight: 700;
       font-size: $textSm;
     }
@@ -73,7 +74,7 @@ h5{
         font-size: 1.25rem;
         line-height: 1;
         background-color: transparent;
-        border: 1px solid #ffffff;
+        border: 1px solid $colorBlanco;
         border-radius: 0.25rem;
        transition: box-shadow .15s ease-in-out;
       }
@@ -87,7 +88,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: $colorTextoGris;
-  background-color: #ffffff;
+  background-color: $colorBlanco;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
 }
@@ -120,13 +121,13 @@ body {
       font-size: 1rem;
       font-weight: 400;
       line-height: 1.5;
-      color: #ffffff;
+      color: $colorBlanco;
     }
     .nav-link {
       font-family: $fontMain;
       display: block;
       padding: 0.5rem 1rem;
-      color: #ffffff;
+      color: $colorBlanco;
       text-decoration: none;
       transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
   }

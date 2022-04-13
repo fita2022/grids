@@ -11,14 +11,15 @@
     <title>NOSOTROS</title>
   </head>    
   <body>
-     <nav class="navbar navbar-expand-lg navbar-light" id="botonera"><!--/ starts nav-->
+    <header class="header">
+     <nav class="navbar navbar-expand-lg" id="botonera"><!--/ starts nav-->
          <div class="container-fluid">
-           <a class="navbar-brand" href="index.html"> 
-             <img class="header__logo" src="../IMG/logo casa florida.png" alt="Logo Casa Florida">
+           <a class="navbar-brand" href="nosotros.html"> 
+             <img class="header__logo" src="../IMG/casa florida.png" alt="Logo Casa Florida">
            </a>
           <a class="navbar-brand" href="#"><img class="sello-calidad w-50" src="../IMG/sello.png" alt="sello calidad">
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"   data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <button id="toggler" class="navbar-toggler" type="button" data-bs-toggle="collapse"   data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
@@ -54,22 +55,41 @@
           </div>
          </div>
       </nav><!--/ ends nav-->
-     <section class="bg-light py-3" ><!-- starts nosotros section-->
+    </header>
+     <section class="py-3" ><!-- starts nosotros section-->
         <div class="container-fluid">
-            <div class="row"> 
+            <div class="row mt-5"> 
           <article class="col-sm-12 col-md-4 col-lg-4"><!-- foto nosotros-->
-          <img src="../IMG/atardecer playa.JPG" class="w-75" alt="">
+          <img src="../IMG/nosotros.jpeg" class="w-100" alt="">
           </article>
-          <article class="col-sm-12 col-md-8 col-lg-8"><!-- texto nosotros-->
+          <article class="col-sm-12 col-md-8 col-lg-8 py-3"><!-- texto nosotros-->
          <h3 class="card-title">Sobre nosotros</h3>
-            <p class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, magnam. Ipsa sequi minus eveniet, accusantium commodi perferendis quae rerum facere voluptates esse ex, dicta neque odio maiores assumenda consectetur possimus.</p>
+            <p class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente architecto dolore et est facere, harum, ab animi iusto aliquid culpa reprehenderit assumenda nemo! Dignissimos pariatur delectus voluptatem exercitationem! Aliquid, non animi! Aspernatur, possimus eveniet blanditiis itaque illo et iste consectetur odit aperiam eligendi veritatis quisquam quo accusantium sit. Eos dolores minima debitis labore velit aliquid ex libero, tempora veritatis doloribus!
+            </p>
          </article>
      </section><!--/ ends nosotros section-->
+     <section id="ph" class="py-3"><!-- starts photo section -->
+      <div class="container-fluid" style="padding: 2rem;">
+        <div class="row justify-content-around">
+            <div class="col-md-3 py-3">
+                <img class="img-fluid rounded w-100" src="../IMG/lavanda.JPG" alt="">
+            </div>
+            <div class="col-md-3 py-3">
+                <img class="img-fluid rounded w-100" src="../IMG/jardin casa florida.JPG" alt="">
+            </div>
+            <div class="col-md-3 py-3">
+                <img class="img-fluid rounded w-100" src="../IMG/jardin casa florida.JPG" alt="">
+            </div>
+            <div class="col-md-3 py-3">
+                <img class="img-fluid rounded w-100" src="../IMG/lavanda.JPG" alt="">
+            </div>
+        </div>
+     </div><!--/ ends photo section-->
      <section class="py-3"><!-- starts footer-->
      <footer class="navbar navbar-expand-lg navbar-light" id="footer"> 
         <div class="container-fluid">
           <div class="footer__columna" style="margin: 1em;max-width: 300px;">
-            <h3>Casa Florida</h3>
+            <h4>Casa Florida</h4>
                <p>Es un emprendimiento familiar atendido por sus dueños desde el año 20003</p>
           </div> 
           <a class="navbar-brand" href="#"> <img class="footer__logo" src="../IMG/casa florida.png" alt="Logo Casa Florida"></a>

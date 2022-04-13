@@ -126,3 +126,34 @@ body {
   .botonera .dropdown-item {
     color: #DB9E76;
     font-weight: 300; }
+
+#galeria {
+  background-color: #E3F0E7; }
+  #galeria #galeria .col-lg-4 {
+    margin: 0 !important;
+    padding: 25px; }
+  #galeria #galeria img {
+    width: 100%; }
+  #galeria #galeria img:hover {
+    border: 10px solid #DB9E76; }
+
+.mainGaleria {
+  display: grid;
+  background-color: #D4BDC1;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: repeat(2 1fr);
+  gap: 1rem;
+  padding: 2rem; }
+
+.imgGaleria {
+  background-color: #A1CDAC;
+  max-width: 400px; }
+
+.grid__galeria {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto auto auto;
+  background-color: #DB9E76;
+  justify-content: space-around;
+  height: 100vh;
+  width: auto; }

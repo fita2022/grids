@@ -1,14 +1,14 @@
 #galeria {
     background-color:$colorVerdeClaro;
 
- #galeria .col-lg-4{
-    margin: 0!important;
-    padding: 25px;
-}
- #galeria img{
-    width: 100%;
-}
- #galeria img:hover{
-    border: 10px solid $colorMain;
-}
+         #galeria .col-lg-4{
+         margin: 0!important;
+         padding: 25px;
+         }
+         #galeria img{
+         width: 100%;
+         }
+         #galeria img:hover{
+         border: 10px solid $colorMain;
+         }
 }

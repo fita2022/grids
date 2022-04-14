@@ -12,20 +12,20 @@
         .nav-link{
             font-size: 1em;
             font-weight: 300;
-            color: #ffff;
+            color: $colorBlanco;
         }
         .nav-link.active, .show>{
             font-family: $fontMain; 
-            color: #DB9E76;
+            color: $colorMain;
             font-weight: 900;
         }
         .navbar-light .navbar-nav .nav-link {
             font-family: $fontMain; 
-            color: #DB9E76;
+            color: $colorMain;
             font-weight: 900;
         }
         .dropdown-item{
-            color: #DB9E76;
+            color: $colorMain;
             font-weight: 300;
         }
     }

@@ -31,7 +31,7 @@ h3{
       color:$colorTextoGris;
 }
 h4{
-  font-size: 2em;
+     font-size: 2em;
       font-weight: 500;
       color:$colorBlanco;
 }
@@ -58,7 +58,7 @@ h5{
     .nav-link {
     display: block;
     padding: 0.5rem 1rem;
-    color:#ffffff;
+    color: $colorBlanco;
     text-decoration: none;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
     }

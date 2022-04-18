@@ -45,24 +45,20 @@ $w-25: 25%;
      color: $color ;
 }
 h1{
-  @include texto(2,4em, 900, $colorTextoGris)
+  @include texto(2em, 700, $colorTextoGris)
  }
 h2{
- @include texto(2em, 700, $colorTextoGris)
+  @include texto (2em, 500, $colorTextoGris)
  }
 h3{
-  @include texto (2em, 500, $colorTextoGris)
-}
-h4{
-  @include texto(2em, 500,$colorBlanco)
-}
-h5{
-     font-size: 2em;
+    font-size: 2em;
      font-weight: 700;
      color: $colorTextoGris;
      margin: 2rem;
 }
-
+h4{
+  @include texto(2em, 500,$colorBlanco)
+}
 //  header ---------------------------------------------------------------
 .header{
   background-color: $colorMain;

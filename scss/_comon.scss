@@ -60,9 +60,20 @@ h3{
 h4{
   @include texto(2em, 500,$colorBlanco)
 }
+
+// mapa 
+$paleta: (
+'main': $colorMain,
+'malba': $colorMalba,
+'verde': $colorVerde,
+'claro': $colorVerdeClaro ,
+'arena': $colorArena,
+'gris' : $colorTextogris,
+'blanco': $colorBlanco,
+);
 //  header ---------------------------------------------------------------
 .header{
-  background-color: $colorMain;
+  background-color: map-get($map: $paleta, $key: $colorMain);
     .header__logo{
     max-width: 250px;
     margin: auto;

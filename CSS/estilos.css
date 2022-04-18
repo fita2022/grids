@@ -15,7 +15,8 @@
   margin: 30px;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  max-width: 20rem; }
   .btn:hover, .btn-more:hover {
     color: #979797;
     cursor: pointer; }

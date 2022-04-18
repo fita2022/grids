@@ -29,6 +29,7 @@ $w-25: 25%;
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 20rem;
   &:hover{
     color: $colorTextoGris;
     cursor: pointer;

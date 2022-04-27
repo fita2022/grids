@@ -5,8 +5,8 @@ $colorMain: #DB9E76  ;
 $colorMalba: #D4BDC1;
 $colorVerde: #A1CDAC ;
 $colorVerdeClaro: #E3F0E7 ;
-$colorArena: #CFC9C2;
-$colorTextoGris : #979797;
+$colorArena: #ece8e4;
+$colorTextoGris : #585858;
 $colorBlanco: #ffffff;
 
 
@@ -46,10 +46,10 @@ $w-25: 25%;
      color: $color ;
 }
 h1{
-  @include texto(2em, 700, $colorTextoGris)
+  @include texto(2em, 900, $colorTextoGris)
  }
 h2{
-  @include texto (2em, 500, $colorTextoGris)
+  @include texto (2em, 700, $colorTextoGris)
  }
 h3{
     font-size: 2em;
@@ -77,7 +77,7 @@ $paleta: (
     .header__logo{
     max-width: 250px;
     margin: auto;
-    }
+  }
     .dropdown-item{
       @include texto($textSm, 700, $colorMain)
     }

@@ -8,8 +8,10 @@ $colorVerdeClaro: #E3F0E7 ;
 $colorArena: #ece8e4;
 $colorTextoGris : #585858;
 $colorBlanco: #ffffff;
-
-
+// gradiantes
+.linear-gradient{
+  background: linear-gradient(to bottom, $colorMain, $colorMalba,);
+}
 // sizing
 $w-100: 100%;
 $w-50: 50%;
@@ -46,10 +48,10 @@ $w-25: 25%;
      color: $color ;
 }
 h1{
-  @include texto(2em, 900, $colorTextoGris)
+  @include texto(2em,900, $colorTextoGris)
  }
 h2{
-  @include texto (2em, 700, $colorTextoGris)
+  @include texto (2em,700, $colorTextoGris)
  }
 h3{
     font-size: 2em;
@@ -58,7 +60,7 @@ h3{
      margin: 2rem;
 }
 h4{
-  @include texto(2em, 500,$colorBlanco)
+  @include texto(2em,500,$colorBlanco)
 }
 
 // mapa 
@@ -126,7 +128,7 @@ body {
 // section parte de galeria ---------------------------------------
 
 // footer
-#footer{
+#footer{ 
   background-color: $colorMain;
     .footer__logo{
     max-width: 250px;
@@ -152,4 +154,8 @@ body {
       text-decoration: none;
       transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
   }
+.scale:hover {
+transform: scale(1.2);
+cursor: pointer;
+transition: transform 3s;
 }

@@ -8,10 +8,7 @@ $colorVerdeClaro: #E3F0E7 ;
 $colorArena: #ece8e4;
 $colorTextoGris : #585858;
 $colorBlanco: #ffffff;
-// gradiantes
-.linear-gradient{
-  background: linear-gradient(to bottom, $colorMain, $colorMalba,);
-}
+
 // sizing
 $w-100: 100%;
 $w-50: 50%;
@@ -154,8 +151,3 @@ body {
       text-decoration: none;
       transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
   }
-.scale:hover {
-transform: scale(1.2);
-cursor: pointer;
-transition: transform 3s;
-}

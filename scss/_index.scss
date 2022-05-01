@@ -1,13 +1,17 @@
 // nav bar
-.botonera{
+#botonera{
     background-color: $colorMain;
         .header__logo{
-            max-width: 200px;
-            margin: auto; 
+            img{
+                max-width: 200px;
+                margin: auto; 
+            }
         }
         .sello-calidad{
-            max-width: 200px;
-            margin: auto;
+            img{
+                max-width: 200px;
+                margin: auto;
+            }
         }
         .nav-link{
             font-size: 1em;
@@ -28,4 +32,19 @@
             color: $colorMain;
             font-weight: 300;
         }
+        .div{
+            .a{
+                background-image: linear-gradient(currentColor, currentColor);
+                background-position: 0% 100%;
+                background-repeat: no-repeat;
+                background-size: 0% 2px;
+                transition: 2s;
+            }
+        }
+         // hover
+         .div .a:hover{
+             color: $colorVerdeClaro;
+             background-size: 100%;
+         }
     }
+   

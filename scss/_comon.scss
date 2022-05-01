@@ -5,7 +5,7 @@ $colorMain: #DB9E76  ;
 $colorMalba: #D4BDC1;
 $colorVerde: #A1CDAC ;
 $colorVerdeClaro: #E3F0E7 ;
-$colorArena: #ece8e4;
+$colorArena: #CFC9C2;
 $colorTextoGris : #585858;
 $colorBlanco: #ffffff;
 
@@ -22,7 +22,7 @@ $w-25: 25%;
   padding: 15px 12px;
   border: none;
   background-color: $colorArena;
-  color: rgb(255, 255, 255);
+  color: $colorBlanco;
   border-radius: 15px;
   margin: 30px;
   display: flex;
@@ -37,6 +37,11 @@ $w-25: 25%;
 .btn-more{
   @extend .btn;
   background-color: $colorVerde;
+  color: $colorBlanco;
+  &:hover{
+    color: $colorTextoGris;
+    cursor: pointer;
+  }
 }
 // mixins-----------------------------------------------------------------
 @mixin texto($font-size, $font-weight, $color){
@@ -67,19 +72,72 @@ $paleta: (
 'verde': $colorVerde,
 'claro': $colorVerdeClaro ,
 'arena': $colorArena,
-'gris' : $colorTextogris,
+'gris' : $colorTextoGris,
 'blanco': $colorBlanco,
 );
+
+// animaciones
+@keyframes animateDiv{
+ 0%{width: 100%;}
+ 25%{width: 200%;}
+ 50%{width: 300%;}
+ 75%{width: 400%}
+ 100%{width: 200%;}
+}
+.animate{
+  animation-name: animateDiv;
+  animation-iteration-count: infinite;
+  animation-timing-function: easy-in;
+  animation-duration: 5s;
+  animation-delay: 0s;
+}
 //  header ---------------------------------------------------------------
+
 .header{
   background-color: map-get($map: $paleta, $key: $colorMain);
-    .header__logo{
-    max-width: 250px;
-    margin: auto;
+  width: 100%;
+  .navbar{
+    .container-fluid{
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      flex-wrap: nowrap;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -ms-flex-wrap: nowrap;
+      -webkit-box-pack: justify;
+      align-items: center;
+      justify-content: space-between;
+    }
   }
+  #botonera{
+    width: 100%;
+    .navbar-brand{
+      img{
+        .header__logo{
+          max-width: 200px;
+          margin: auto;
+          padding-top: 0; 
+          padding-bottom: 0; 
+          margin-right: 0.5rem; 
+          font-size: 2em;
+          text-decoration: none;
+          white-space: wrap;
+        }
+        }
+      }
+    }
+    .navbar-brand{
+      img{
+        .sello-calidad{
+          max-width: 200px;
+          margin: auto;
+        }
+      }
+    }
     .dropdown-item{
       @include texto($textSm, 700, $colorMain)
-    }
+      }
     .nav-link {
     display: block;
     padding: 0.5rem 1rem;
@@ -92,7 +150,7 @@ $paleta: (
       color:$colorBlanco;
       font-weight: 700;
       font-size: $textSm;
-    }
+      }
     div{
       #toggler{
         padding: 0.25rem 0.75rem;
@@ -104,10 +162,10 @@ $paleta: (
        transition: box-shadow .15s ease-in-out;
       }
     }  
-  } 
+  }
 // destacados texto ---------------------------------------------------------
 body {
-  margin: 1em;
+  margin: 0em;
   font-family: $fontMain;
   font-size: 1rem;
   font-weight: 400;
@@ -119,22 +177,31 @@ body {
 }
 // ph -----------------------------------------------------------------------
 // section departamentos de index--------------------------------------------- 
-
-
-
+.main{
+  width: 100%;
+}
 // section parte de galeria ---------------------------------------
 
 // footer
 #footer{ 
   background-color: $colorMain;
-    .footer__logo{
-    max-width: 250px;
-    margin: auto;
+  width: 100%;
+  a{
+    .navbar-brand{
+      .footer__logo{
+        max-width: 200px;
+        margin: auto;
+      }
     }
-    .footer__sello{
-    max-width: 200px;
-    margin: auto;
+  }
+  a{
+    .navbar-brand{
+      .sello-calidad{
+        max-width: 100px!important;
+        margin: auto;
+      }
     }
+  }
     .footer__columna{
       margin: 1em;
       font-family: $fontMain;
@@ -150,4 +217,39 @@ body {
       color: $colorBlanco;
       text-decoration: none;
       transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+      }
+  }
+
+  // @media min and max widht
+  @media (min-width: 280px) and (max-width: 991px){
+    #botonera{
+      max-height: 500px;
+    }
+    #botonera .header__logo{
+      width: 150px!important;
+    }
+    #botonera .sello-calidad{
+      width: 100px!important;
+    }
+    #botonera #toggler{
+      width: 50px;
+    }
+    #footer .footer__logo {
+      width: 150px!important;
+    }
+    #footer .sello-calidad{
+      width: 100px!important;
+    }
+    #footer .footer__columna .h4 {
+      width: 150px;
+      font-size: 1em;
+    }
+    #footer .footer_mapa{
+      width: 100%;
+    }
+  }
+  @media (min-width: 280px) and (max-width: 387px){
+    #botonera .sello-calidad{
+      width: 0px!important ;
+    }
   }

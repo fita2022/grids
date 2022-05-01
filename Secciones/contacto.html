@@ -7,17 +7,17 @@
     <!-- Bootstrap CSS -->
     <link href="../CSS/bootstrap.min.css" rel="stylesheet">
     <!-- MI CSS -->
-    <link href="../CSS/estilos.css" rel="stylesheet">
+    <link href="../scss/estilos.css" rel="stylesheet">
     <title>Contacto con Casa Florida</title>
     <meta name="description" content="Contacto para consultas de alquiler temporario vacacional en Las grutas Rio Negro, Patagonia Argentina">
     <meta name="keywords" content="contacto, alquiler, consulta para alquiler, alquiler temporario, telefono, email, alquiler en Las Grutas, Patagonia Argentina, turismo, viajar por Argentina, Viajar por la Ptagonia,mar calido, playa, cercania a la costanera, centrico, ambiente familiar, descanso, jardin,">
-  </head>
-  <body>
+  </head> <!--/ ends Head--> 
+  <body><!--/ starts Body-->
     <header class="header"><!--/ starts Header-->
-      <nav id="botonera" class="navbar navbar-expand-lg" ><!--/ starts Nav-->
-           <div class="container-fluid">
+      <div class="container-fluid">
+      <nav id="botonera" class="navbar navbar-expand-lg" style="padding: 1em;"><!--/ starts Nav-->
              <a class="navbar-brand" href="index.html"> 
-               <img class="header__logo" src="../IMG/CASA FLORIDA.svg" alt="Logo Casa Florida">
+               <img class="header__logo w-50" src="../IMG/CASA FLORIDA.svg" alt="Logo Casa Florida">
              </a>
              <a class="navbar-brand" href="#">
               <img class="sello-calidad w-50" src="../IMG/sello.png" alt="sello de calidad sanitaria">
@@ -61,7 +61,7 @@
     </header>
     <main> <!-- starts Main-->
       <section class="container-fluid py-3" id="formulario"><!-- starts Formulario-->
-          <h1 class="text-center">Dejanos tu consulta</h1>
+          <h1 class="text-center" style="padding: 1em;">Dejanos tu consulta</h1>
           <div class="row">
             <article class="col-lg-6">
                 <form>
@@ -86,11 +86,11 @@
                       <input type="checkbox" class="form-check-input" id="exampleCheck1">
                       <label class="form-check-label" for="exampleCheck1">Quiero recibir ofertas</label>
                     </div>
-                    <button type="submit" class="btn btn-light w-50">Enviar consulta</button>
+                    <button type="submit" class=" shadow btn w-50">Enviar consulta</button>
                   </form>
             </article><!-- /ends form-->
             <article class="col-lg-6">
-              <img src="../IMG/exterioir ocho cuatro pax.jpg" class="w-75 border" alt="vista a la entrada a departamento para cuatro personas en planta baja">
+              <img src="../IMG/exterioir ocho cuatro pax.jpg" class="w-75 border rounded" alt="vista a la entrada a departamento para cuatro personas en planta baja">
             </article>
          </div><!-- /ends Row-->
        </section>
@@ -102,7 +102,7 @@
               <h4>Casa Florida</h4>
                  <p>Es un emprendimiento familiar atendido por sus dueños desde el año 20003</p>
             </div> 
-            <a class="navbar-brand" href="#"> <img class="footer__logo" src="../IMG/CASA FLORIDA.svg" alt="Logo Casa Florida"></a><!-- Logo-->
+            <a class="navbar-brand" href="#"> <img class="footer__logo w-50" src="../IMG/CASA FLORIDA.svg" alt="Logo Casa Florida"></a><!-- Logo-->
             <a class="navbar-brand" href="#"><img class="sello-calidad w-50" src="../IMG/sello.png" alt="sello de calidad sanitaria"></a><!-- Sello-->
             <div class="footer__columna" style="margin: 1em;max-width: 300px;"><!-- starts Social Media column-->
               <h4> Seguinos!</h4>
